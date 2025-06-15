@@ -200,7 +200,7 @@ function Principal() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
         <div className="container">
           <Link className="navbar-brand fw-bold fs-4" to="/">
-            <i className="bi bi-film" /> Diego Hernan Ramos
+            <i className="bi bi-film" /> Diego Hernan Ramos Choque
           </Link>
           <button
             className="navbar-toggler"
