@@ -115,7 +115,7 @@ function Inicio() {
         </div>
         <div className="col-md-4">
           <Tarjetas
-            titulo="Harrison papi Ford"
+            titulo="Harrison Ford"
             texto="Harrison Ford es un actor icónico estadounidense, nacido el 13 de julio de 1942 en Chicago. Es mundialmente reconocido por interpretar a Han Solo en Star Wars y a Indiana Jones en la saga homónima. Su carrera despegó gracias a su colaboración con George Lucas y Steven Spielberg, convirtiéndose en una de las estrellas más taquilleras de Hollywood. Además de su éxito en el cine, es piloto de aviación y ambientalista
 "
             imagen="https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcQnzg5Fw80Xvzwz-f5xNSAjA3kV_epQ7iIpLIOQ4IdKfmSTZM38kqPc6rgdDGKKaJKIDsJ_aqsQm1KXkt0"
@@ -200,7 +200,7 @@ function Principal() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
         <div className="container">
           <Link className="navbar-brand fw-bold fs-4" to="/">
-            <i className="bi bi-film" /> Diego Hernan
+            <i className="bi bi-film" /> Diego Hernan Ramos
           </Link>
           <button
             className="navbar-toggler"
