@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #ffffff; /* O el que tú quieras */
+  color: #213547; /* O el que tú quieras */
+}
