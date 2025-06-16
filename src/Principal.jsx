@@ -237,6 +237,94 @@ function Principal() {
           <Route path="/pag2" element={<Peliculas />} />
         </Routes>
       </main>
+     
+  
+
+{/* Publicidad llamativa */}
+    {/* Publicidad llamativa con estrenos */}
+<section className="bg-light py-5 border-top border-bottom">
+  <div className="container text-center">
+    <h2 className="mb-4 text-dark">
+      <i className="bi bi-star-fill text-warning me-2" />
+      🎬 Estrenos Exclusivos en la Cinemateca
+    </h2>
+
+    <div className="row justify-content-center">
+      {/* Tarjeta 1 */}
+      <div className="col-md-4 mb-4">
+        <div className="card h-100 shadow-sm">
+          <img
+            src="https://i.blogs.es/04e16f/personajes-tu-amigo-vecino-spider-man-estreno-mexico-disney-plus/650_1200.jpeg"
+            className="card-img-top"
+            alt="friendly neighborhood spider"
+            style={{ height: "300px", objectFit: "cover" }}
+          />
+          <div className="card-body d-flex flex-column">
+            <h5 className="card-title fw-bold">Friendly Neighborhood Spider</h5>
+            <p
+              className="card-text text-muted flex-grow-1"
+              style={{ fontSize: "0.95rem", maxHeight: "160px", overflowY: "auto" }}
+            >
+              El joven Peter Parker acaba de descubrir sus poderes, pero ser Spider-Man no es tan sencillo como esperaba...
+            </p>
+            <a href="/pag2" className="btn btn-warning mt-auto">
+              Ver más <i className="bi bi-film ms-1" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Tarjeta 2 */}
+      <div className="col-md-4 mb-4">
+        <div className="card h-100 shadow-sm">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMGNiN2RlZTMtMTkyZC00YjkwLTgyY2QtMDg1ZDNhODQwNWM4XkEyXkFqcGc@._V1_.jpg"
+            className="card-img-top"
+            alt="Avenger Doomsday"
+            style={{ height: "300px", objectFit: "cover" }}
+          />
+          <div className="card-body d-flex flex-column">
+            <h5 className="card-title fw-bold">Avengers: Doomsday</h5>
+            <p
+              className="card-text text-muted flex-grow-1"
+              style={{ fontSize: "0.95rem", maxHeight: "160px", overflowY: "auto" }}
+            >
+              Iron Man, Thor, Capitán América y el resto de los héroes deben enfrentarse a su batalla más desesperada...
+            </p>
+            <a href="/pag2" className="btn btn-warning mt-auto">
+              Ver más <i className="bi bi-film ms-1" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Tarjeta 3 */}
+      <div className="col-md-4 mb-4">
+        <div className="card h-100 shadow-sm">
+          <img
+            src="https://musicart.xboxlive.com/7/51bf5000-0000-0000-0000-000000000002/504/image.jpg"
+            className="card-img-top"
+            alt="Freddy vs Jason"
+            style={{ height: "300px", objectFit: "cover" }}
+          />
+          <div className="card-body d-flex flex-column">
+            <h5 className="card-title fw-bold">Freddy vs Jason</h5>
+            <p
+              className="card-text text-muted flex-grow-1"
+              style={{ fontSize: "0.95rem", maxHeight: "160px", overflowY: "auto" }}
+            >
+              El terror regresa… y esta vez, nadie está a salvo. Cuando un eclipse de sangre oscurece el cielo, Freddy y Jason despiertan...
+            </p>
+            <a href="/pag2" className="btn btn-warning mt-auto">
+              Ver más <i className="bi bi-film ms-1" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       <footer className="bg-dark text-white mt-5">
         {/* Publicidad */}
